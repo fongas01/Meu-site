@@ -1,0 +1,130 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  text-decoration:none;
+  list-style-type:none;
+  list-style:none;
+}
+
+.wellcome{text-align:center; margin-bottom:40px;}
+
+/* desenhar coração   &hearts;{color:255,0,0;}*/
+/*body{background:url('../img/guaratiba.jpg'); background-repeat:no-repeat;background-size:100%;}*/
+/*body{background:url('/img/bg.jpg'); background-repeat:no-repeat;background-size:100%;}*/
+
+header{display:flex; justify-content:space-between; align-items:center;}
+
+nav ul{display:flex; margin-right:30px;}
+
+ul li a{ margin-left:50px; color:azure; font-size: 20px; }
+
+li a:hover{
+  border: transparent;
+  border-radius: 10%;
+  background-color:#ffff;
+  padding:18px;
+  color:rgb(73, 4, 184);
+  text-transform: uppercase;
+}
+
+.logo{border-radius:5%; margin:10px 40px;}
+
+.container{
+  width: 100vw;
+  height:100vh;
+  background: linear-gradient(0, #120976, #0a0a0a);
+}
+
+/*estrelas maiores*/
+.stars{
+  position: relative;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  box-shadow: 15px 15px white,
+    125px 35px white,
+    50px 80px white,
+    10px 120px white,
+    275px 90px white,
+    230px 10px white,
+    120px 130px white,
+    300px 130px white,
+    220px 115px white;
+  animation: anim-stars 50s linear infinite;
+}
+
+/*estrelas menores*/
+.stars::after{
+  content: " ";
+  position: absolute;
+  top: 180px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  box-shadow: 15px 15px white,
+  125px 35px white,
+  50px 80px white,
+  10px 120px white,
+  275px 90px white,
+  230px 10px white,
+  120px 130px white,
+  190px 130px white,
+  1220px 115px rgb(255, 255, 255);
+}
+
+@keyframes anim-stars {
+  from {
+      transform: translateY(400px);
+  }
+  to {
+      transform: translateY(0px);
+  }
+}
+
+.main{ display:flex; justify-content:center;}
+.main p{margin-top:40px; margin-right: 30px; font-size: 18px;}
+
+.apresentacao {text-align: center;}
+
+.imgMain{ border-radius: 10%;}
+
+h1{ text-align:center; margin-top:90px; margin-bottom:70px;}
+
+h1, h2, p  {color:#fff;}
+
+.curriculo {
+  border: solid 1px;
+  border-radius:50px; 
+  padding:12px; 
+  width: 150px;
+  margin-left:300px;
+}
+
+.curriculo a{ color: #fff;}
+
+.curriculo :hover{color:rgb(4, 151, 4);}
+
+span{color:rgb(4, 151, 4);}
+
+#coracao{color:rgb(225, 12, 12);}
+
+
+
+/* RESPONSIVIDADE */
+
+@media screen and (min-width: 0) {
+ 
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}

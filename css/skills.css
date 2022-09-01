@@ -1,0 +1,77 @@
+*{
+margin:0;
+padding:0;
+text-decoration:none;
+list-style-type:none;
+list-style:none;
+}
+
+/* CABEÇALHO */
+
+
+header{display:flex; justify-content:space-between; margin:0px 40px; align-items:center; }
+
+nav ul{display:flex; }
+
+ul li a{ margin-left:50px;}
+
+.logo{border-radius:5%; margin:10px;}
+
+.main{ text-align:center;   background: linear-gradient(0, #120976, #0a0a0a);}
+
+#skills{font-size:50px; color:#fff;}
+
+h1{margin-bottom:10px;}
+
+p{margin-bottom:40px;}
+
+.autor{width:40px; height:40px; border-radius:50%;}
+
+/* FORMAÇÃO UNIVERSITÁRIA */
+fieldset{display:flex; justify-content:space-around; margin:15px 130px;}
+.cardGrad{ text-align: center;}
+legend{font-size:22px; color:rgb(11, 10, 10);}
+.cardGrad p{margin-bottom: 10px;}
+.logoFac{width:100px; height:90px; padding-top:15px;}
+
+/* FORMAÇÃO TECH */
+h2{margin-top: 20px; margin-bottom: 20px;text-align: center;}
+.container{display:grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; gap:10px; margin:auto 30px auto 30px;}
+.cursoTech{ border:solid 3px rgb(174, 174, 174); border-radius: 12px; padding-left: 8px;}
+li{font-size:12px; color:rgb(57, 2, 2);}
+
+#voltar{
+  margin-top:20px;
+  margin-left:1260px; 
+  height:20px; 
+  width: 20px;
+}
+
+footer{ 
+  background: linear-gradient(0, #120976, #0a0a0a);
+  height:50px;
+}
+
+footer p{text-align: center; padding-top:15px; color: #fff;}
+
+#coracao{color:rgb(225, 12, 12);}
+
+
+
+/* RESPONSIVIDADE */
+
+@media screen and (min-width: 0) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
