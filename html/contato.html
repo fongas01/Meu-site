@@ -28,75 +28,76 @@
 		
 	<!-- MAPA -->
 	<section class="container">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14704.4498724479!
-		2d-43.4736066!3d-22.872303399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
-		1s0x9bdff2a1bed6f3%3A0x5ecb9488f615e5a2!2sBangu%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1646187792085
-		!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-		</iframe>
-	
+		<div class="maps">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14704.4498724479!
+			2d-43.4736066!3d-22.872303399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+			1s0x9bdff2a1bed6f3%3A0x5ecb9488f615e5a2!2sBangu%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1646187792085
+			!5m2!1spt-BR!2sbr" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy">
+			</iframe>
+		</div>
+
 		<!-- FORMULÁRIO -->	
 		<div class="formulario">
 			<h2>Fale conosco</h2>
-			<p class=""> Dúvidas, críticas ou sujestões? Entre em contato conosco. Seu feedback é muito importante. </p>
+			<p> Dúvidas, críticas ou sujestões? <br>
+				Entre em contato conosco. <br>
+				Seu feedback é muito importante. 
+			</p>
 
-			<!-- INPUT-->
+			<!-- INPUT -->
 			<form action="" method="post">
 				<div class="input-field">
-						<input type="text" name="name" id="name">
-						<label for="name">Seu nome</label>
+					<label for="name">
+						Nome:
+					<input type="text" name="name" id="name" required placeholder="Informe o teu nome">
+					</label>
 				</div>
 
 				<div class="input-field">
-						<input type="text" name="email" id="email">
-						<label for="email">Seu e-mail</label>
+					<label for="email">
+					E-mail:
+					<input type="text" name="email" id="email" required placeholder="Teu e-mail">
+					</label>
 				</div>
 
 				<div class="input-field">
-						<input type="text" name="subject" id="subject">
-						<label for="subject">Assunto</label>
+					<label for="subject"> 
+						Assunto:
+					<input type="text" name="subject" id="subject" required placeholder="Assunto">
+					</label>
 				</div>
 
 				<!-- OUTPUT -->
 				<div class="input-field">
-						<textarea id="message" class=""></textarea>
-						<label for="message">Mensagem</label>
+					<label for="message">
+						<textarea id="message" required placeholder="Mensagem"></textarea>
+					</label>
 				</div>
+			
+				 <!-- BOTÃO PARA ENVIAR A MENSAGEM -->
+				<button class="btn-enviar" type="submit">Enviar</button>
 			</form>
 		</div>	
-
-		<!-- BOTÃO PARA ENVIAR A MENSAGEM-->
-		<button class="btn-enviar" type="submit">Enviar</button>
 	</section>
-	</div>
-
-
-
-
-
-	<div class="">
-		<h4 class="light">Redes sociais</h4>
-		<!--Pegaremos o LINK do HTML no site FONT AWESOME CDN pelo CDNBOOTSTRAP.COM -->
-		<p class="light">Fique por dentro das novidade e receba mais informações, ou moste ao mundo que você faz paste deste projeto sensacional.</p>
-
-		<!-- INSERIR A ANCORA COM A REDE SOCIAL DESEJADA com a class FA -->
-		<a href="#" class="btn-floating blue-logo"><i class="fa fa-facebook"></i> </a>
-		<a href="#" class="btn-floating blue-logo"><i class="fa fa-twitter"></i> </a>
-		<a href="#" class="btn-floating blue-logo"><i class="fa fa-telegram"></i> </a>
-
-
 	
+	<section class="redeSociais">
+		<h2>Redes sociais</h2>
+		<!-- Pegar o LINK do HTML no site FONT AWESOME CDN pelo CDNBOOTSTRAP.COM -->
+		<p>Fique por dentro das novidade e receba mais informações, ou moste ao mundo que você faz paste deste projeto sensacional.</p>
 
-
-
-
-	
-
-		<a href="../index.html"><img id="voltar" src="/img/setaVoltar.png"></a>
-
+		<a href="#"><img class="btn-floating" src="/img/linkedin.jpg" title="Linkedin"></a>
+		<a href="#"><img class="btn-floating" src="/img/git.jpg" title="Github"></a>
+		<a href="#"><img class="btn-floating" src="/img/whatsapp.jpg" title="Whatsapp"></a>
 	</section>
+
+	<a href="../index.html"><img id="voltar" src="/img/setaVoltar.png"></a>
 
 	<footer>
-		<p class="copyright"> © Copyright - Feito com <span id="coracao">&hearts;</span> por  Fernando Manuel - 2022</p>
+		<p class="copyright"> © Copyright - Feito com 
+			<span id="coracao">&hearts;</span> 
+			por  Fernando Manuel - 2022
+		</p>
 	</footer>
+
 </body>
 </html>

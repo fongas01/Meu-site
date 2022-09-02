@@ -1,14 +1,16 @@
 *{
   box-sizing: border-box;
-margin:0;
-padding:0;
-text-decoration:none;
-list-style-type:none;
-list-style:none;
+  margin:0;
+  padding:0;
+  text-decoration:none;
+  list-style-type:none;
+  list-style:none;
 }
 .container{
-  width: 100vw;
-  height:100vh;
+  width: 100%;
+  height:100%;
+  display:flex;
+  margin-bottom: 30px;
 }
 
 .main{ 
@@ -40,16 +42,53 @@ p{margin-bottom:40px;}
 
 .autor{width:40px; height:40px; border-radius:50%;}
 
+.btn-enviar{width: 100px;height:30px;}
 
+.maps{
+  margin-left: 20px;
+}
 
-#coracao{color:rgb(225, 12, 12);}
+/* FORMULÁRIO */
 
-.voltar{
-  
+.formulario {
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  margin-left: 20px;
+  margin-right: 20px;
+  height:350px;
+  width: 650px;
+}
+
+.input-field{
+  margin-bottom: 5px;
+}
+
+.redeSociais{ 
+ text-align: center;
+}
+
+.redeSociais h2, p{ 
+  margin-top: 10px;
+  margin-bottom: 15px;
+ }
+
+ .btn-floating{
+  width: 30px;
+  height:30px;
+  margin-left:15px;
 }
 
 
 
+
+
+
+
+
+
+
+#coracao{color:rgb(225, 12, 12);}
 
 
 /* RESPONSIVIDADE */
