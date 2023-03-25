@@ -13,7 +13,7 @@
   </head>
 
 <body>
-
+  <!-- MAIN-->
 	<section class="main">
 			<header>
 				<img class="logo" width="132" height="60"  src="/img/logo.png" alt="Logo da empresa">
@@ -45,37 +45,26 @@
 			</p>
 
 			<!-- INPUT -->
-			<form action="" method="post">
+			<form class="formCadastro" action="/" method="post">
 				<div class="input-field">
-					<label for="name">
-						Nome:
-					<input type="text" name="name" id="name" required placeholder="Informe o teu nome">
-					</label>
+					<input class="infDados"  type="text" name="name" id="name" required placeholder="Informe o teu nome">
 				</div>
 
 				<div class="input-field">
-					<label for="email">
-					E-mail:
-					<input type="text" name="email" id="email" required placeholder="Teu e-mail">
-					</label>
+					<input class="infDados" type="email" name="email" id="email" required placeholder="Teu e-mail">
 				</div>
 
 				<div class="input-field">
-					<label for="subject"> 
-						Assunto:
-					<input type="text" name="subject" id="subject" required placeholder="Assunto">
-					</label>
+					<input class="infDados" type="text" name="subject" id="subject" required placeholder="Assunto">
 				</div>
 
 				<!-- OUTPUT -->
 				<div class="input-field">
-					<label for="message">
-						<textarea id="message" required placeholder="Mensagem"></textarea>
-					</label>
+					<textarea row="100" id="message" required placeholder="Mensagem"></textarea>
 				</div>
 			
-				 <!-- BOTÃO PARA ENVIAR A MENSAGEM -->
-				<button class="btn-enviar" type="submit">Enviar</button>
+				<!-- BOTÃO PARA ENVIAR A MENSAGEM -->
+				<input class="btn-enviar" type="submit" value="Enviar"/>
 			</form>
 		</div>	
 	</section>
@@ -85,9 +74,9 @@
 		<!-- Pegar o LINK do HTML no site FONT AWESOME CDN pelo CDNBOOTSTRAP.COM -->
 		<p>Fique por dentro das novidade e receba mais informações, ou moste ao mundo que você faz paste deste projeto sensacional.</p>
 
-		<a href="#"><img class="btn-floating" src="/img/linkedin.jpg" title="Linkedin"></a>
-		<a href="#"><img class="btn-floating" src="/img/git.jpg" title="Github"></a>
-		<a href="#"><img class="btn-floating" src="/img/whatsapp.jpg" title="Whatsapp"></a>
+		<a href="https://www.linkedin.com/in/fongas-dev/" target="_blank"><img class="btn-floating" src="/img/linkedin.jpg" title="Linkedin"></a>
+		<a href="https://github.com/fongas01" target="_blank"><img class="btn-floating" src="/img/git.jpg" title="Github"></a>
+		<a href="http://wa.me/+5521993817779?text=" target="_blank"><img class="btn-floating" src="/img/whatsapp.jpg" title="Whatsapp"></a>
 	</section>
 
 	<a href="../index.html"><img id="voltar" src="/img/setaVoltar.png"></a>

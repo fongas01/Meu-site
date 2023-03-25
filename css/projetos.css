@@ -21,7 +21,8 @@ p{margin-bottom:40px;}
 .autor{width:40px; height:40px; border-radius:50%;}
 .autor{width:40px; height:40px; border-radius:50%;}
 
-
+h2{margin-top: 5px; margin-bottom: 8px;text-align: center;}
+.duracaoProjeto{text-align: center; margin-top:1px; margin-bottom: 1px;}
 
 /* Body */ /* GRID */
 .container{display:grid;grid-template-columns: 1fr 1fr 1fr ; gap:10px; margin:auto 30px auto 30px;}
